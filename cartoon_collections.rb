@@ -21,7 +21,8 @@ def long_planeteer_calls(calls)
   end
 end
 
-
+# returns the first element of the array that is cheese
+# returns nil if the array does not contain a type of cheese 
 def find_the_cheese(string_of_arrays)
 cheese_types = ["cheddar", "gouda", "camembert"]
 string_of_arrays.find do |c|
